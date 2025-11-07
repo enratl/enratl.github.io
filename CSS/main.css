@@ -1,18 +1,74 @@
+@font-face {
+    font-family: 'blacC';
+    src: url('../Fonts/blackwood-castle/BLACC___.TTF');
+}
+
+@font-face {
+    font-family: 'imFellDw';
+    src: url('../Fonts/im-fell-dw-pica/IMFePIrm28P.ttf');
+}
+
 body {
     background-color: #ebe5ce;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'imFellDw';
+}
+
+h1 {
+    font-family: 'blacC';
 }
 
 #title {
+    font-size: 40px;
     text-align: center;
     color: #2e3037;
     border-bottom: 3px solid #2e3037;
     line-height: 0.1em;
     padding-top: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #title span {
     background-color: #ebe5ce;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+#block {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+div.body-block {
+    border: 3px solid #2e3037;
+    background-color: #2e3037;
+    color: #ebe5ce;
+    padding-top: 50px;
+    display: inline-block;
+    white-space: pre-line;
+}
+
+div.body-block:hover  {
+    color: #2e3037;
+    background-color: #ebe5ce;
+}
+
+#left {
+    width: 30%;
+    height: 200px;
+}
+
+#right {
+    width: 30%;
+    height: 200px;
+    margin-left: 10%;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid #2e3037;
+    margin-left: 5%;
+    margin-right: 5%;
 }
