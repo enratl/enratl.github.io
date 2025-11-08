@@ -8,6 +8,12 @@
     src: url('../Fonts/im-fell-dw-pica/IMFePIrm28P.ttf');
 }
 
+#main {
+    display: grid;
+    min-height: 98vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 body {
     background-color: #ebe5ce;
     font-family: 'imFellDw';
@@ -57,16 +63,19 @@ div.body-block:hover  {
 
 #left {
     width: 30%;
+    max-width: 300px;
     height: 200px;
 }
 
 #right {
     width: 30%;
+    max-width: 300px;
     height: 200px;
     margin-left: 10%;
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
     border-top: 3px solid #2e3037;
     margin-left: 5%;
