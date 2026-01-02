@@ -8,6 +8,12 @@
     src: url('../Fonts/im-fell-dw-pica/IMFePIrm28P.ttf');
 }
 
+#main {
+    display: grid;
+    min-height: 98vh;
+    grid-template-rows: auto 1fr auto;
+}
+
 body {
     /*background-image: linear-gradient(to bottom, #2e3037, #ebe5ce);*/
     background-color: #ebe5ce;
@@ -106,6 +112,7 @@ div.link-block:hover  {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
     border-top: 3px solid #2e3037;
     margin-left: 5%;
